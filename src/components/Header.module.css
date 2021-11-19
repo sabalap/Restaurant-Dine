@@ -1,0 +1,97 @@
+.header{
+    background-color: #111111;
+    padding: 60px 0px 200px;
+    background-image: url("../images/homepage/hero-bg-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.header h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    text-align: left;
+    font-weight: 300;
+    max-width: 510px;
+    margin-bottom: 25px;
+}
+.header p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 410px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.header img{
+    margin-bottom: 150px;
+}
+.button{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 25px 55px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0px;
+    transition: all 0.2s linear;
+}
+.button:hover{
+    background-color: #FFFFFF;
+    color: #111111;
+}
+.cart-icon{
+    font-size: 40px;
+    color: white;
+    position: relative;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.amount{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    top: -5%;
+    left: 60%;
+    font-size: 11px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+@media (max-width:900px) {
+    .header {
+        background-position: bottom;
+        background-size: contain;
+        text-align: center;
+    }
+    .header h1, .header p{
+        max-width: 100%;
+        text-align: center;
+    }
+    .header h1{
+        font-size: 45px;
+        line-height: 65px;
+    }
+}
+@media (max-width:600px) {
+    .header h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .button {
+        padding: 25px;
+    }
+}

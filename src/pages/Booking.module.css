@@ -1,0 +1,63 @@
+.header{
+    background-color: #111111;
+    background-image: url("../images/booking/hero-bg-desktop@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 65px 0px 124px;
+    background-position: top center;
+}
+.booking-container{
+    display: flex;
+    position: relative;
+}
+.booking-container h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    font-weight: 300;
+    margin-top: 152px;
+    margin-bottom: 25px;
+}
+.booking-container p{
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 18px;
+}
+.booking-container .info{
+    margin-right: 90px;
+    width: 420px;
+}
+@media (max-width:1080px) {
+    .booking-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .booking-container form{
+        position: relative;
+        top: 150px;
+    }
+    .info{
+        margin-right: 0px !important;
+        text-align: center;
+    }
+    form::after{
+        display: none !important;
+    }
+    .header{
+        padding-bottom: 70px;
+    }
+}
+@media (max-width:650px) {
+    .booking-container h1{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .booking-container .info{
+        width: 320px;
+    }
+    form{
+        width: 320px !important;
+        padding: 20px !important;
+    }
+}

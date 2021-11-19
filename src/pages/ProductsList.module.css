@@ -1,0 +1,32 @@
+.menuList{
+    background-color: #111111;
+    padding: 70px 0px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+}
+.menuList .container h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+.menuList .container{
+    height: 100%;
+}
+.loading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+@media (max-width:800px) {
+    .menu-container{
+        justify-content: center;
+    }
+}

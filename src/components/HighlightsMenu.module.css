@@ -1,0 +1,69 @@
+.highlights{
+    background-color: #111111;
+    margin-top: -125px;
+    padding-top: 250px;
+}
+.highlights-container{
+    display: flex;
+    justify-content: space-between;
+}
+.highlights-container h2{
+    color: #FFFFFF;
+    letter-spacing: -0.5px;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 700;
+    position: relative;
+}
+.highlights-container .highlights-text h2{
+    margin-bottom: 20px;
+}
+.highlights-container .highlights-text h2::before{
+    content: url("../images/patterns/pattern-divide.svg");
+    position: absolute;
+    top: -87px;
+    height: 74px;
+    width: 100%;
+    display: block;
+}
+.highlights-container p{
+    color: #FFFFFF;
+    line-height: 30px;
+    font-size: 18px;
+}
+.highlights-container .highlights-text{
+    max-width: 450px;
+}
+.button{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 25px 55px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0px;
+    transition: all 0.2s linear;
+    margin-top: 25px;
+}
+.button:hover{
+    background-color: #FFFFFF;
+    color: #111111;
+}
+@media (max-width:900px) {
+    .highlights{
+        margin-top: 0px;
+        padding-top: 70px;
+    }
+    .highlights-container{
+        flex-direction: column;
+    }
+    .highlights-container .highlights-text{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}

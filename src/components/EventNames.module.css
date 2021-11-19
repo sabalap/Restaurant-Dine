@@ -1,0 +1,31 @@
+.name{
+    color: rgb(76,76,76,0.5);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 14px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.active{
+    color: rgb(76,76,76);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 14px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+.active::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 91px;
+    position: absolute;
+    top: 9px;
+    left: -125px;
+    background-color: #9e7f66;
+}

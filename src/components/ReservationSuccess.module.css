@@ -1,0 +1,33 @@
+.reservation-success{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.reservation-success h1{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.button{
+    background-color: #111111;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 25px 55px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0px;
+    transition: all 0.2s linear;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.button:hover{
+    background-color: #FFFFFF;
+    color: #111111;
+    border: 1px solid #111111;
+}
