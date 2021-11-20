@@ -94,4 +94,10 @@
     .button {
         padding: 25px;
     }
+    .header img{
+        margin-bottom: 0px;
+    }
+    .header-container{
+        margin-bottom: 140px;
+    }
 }
