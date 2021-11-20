@@ -105,3 +105,11 @@ label{
         top: 250px;
     }
 }
+@media (max-width:630px) {
+    .form input{
+        font-size: 12px;
+    }
+    label{
+        font-size: 14px;
+    }
+}

@@ -60,3 +60,8 @@ ul{
         padding: 0px 50px;
     }
 }
+@media (max-width:500px) {
+    .container {
+        padding: 0px 25px;
+    }
+}

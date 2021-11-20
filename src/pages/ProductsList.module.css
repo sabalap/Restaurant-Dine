@@ -28,5 +28,11 @@
 @media (max-width:800px) {
     .menu-container{
         justify-content: center;
+        grid-gap: 30px;
+    }
+}
+@media (max-width:500px) {
+    .menuList{
+        padding: 60px 0px 20px;
     }
 }
